@@ -16,9 +16,9 @@
 
 		console.log(array_nombre_del_alumno);
 		
-        document.getElementById("ver_nombre").innerHTML = array_nombre_del_alumno;
-        document.getElementById("botón_enviar").style.display = "none";
-        document.getElementById("botón_ordenar").style.display = "inline-block";
+        document.getElementById("display_name").innerHTML = array_nombre_del_alumno;
+        document.getElementById("submit_button").style.display = "none";
+        document.getElementById("sort_button").style.display = "inline-block";
 
 	}
 
