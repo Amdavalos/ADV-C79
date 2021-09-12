@@ -26,5 +26,5 @@ function sorting()
 {
 	array_nombre_del_alumno.sort();
     console.log(narray_nombre_del_alumno);
-	document.getElementById("ver_nombre").innerHTML = array_nombre_del_alumno;
+	document.getElementById("display_name").innerHTML = array_nombre_del_alumno;
 }
